@@ -11,8 +11,8 @@ on:
   schedule:
     - cron: '5 1 * * *'
 
--env:
-  - TZ: Asia/Shanghai
+env:
+  TZ: Asia/Shanghai
 
 permissions:
   contents: read
